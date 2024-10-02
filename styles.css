@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff; /* Light blue background */
+    font-family: Arial, sans-serif; /* Font style */
+}
+
+.container {
+    text-align: center; /* Center align text */
+}
+
+h1 {
+    margin-bottom: 20px; /* Space below the heading */
+    color: #4B0082; /* Indigo color for the heading */
+}
+
+.bouquet {
+    position: relative; /* Positioning context for the bouquet */
+}
+
+.bouquet-svg {
+    width: 200px; /* Fixed width for SVG */
+    height: auto; /* Auto height */
+}
+
+.flower {
+    fill: #FF69B4; /* Pink color for flowers */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.flower:hover {
+    transform: scale(1.1); /* Scale up on hover */
+}
+
+.stem {
+    fill: #008000; /* Green color for the stem */
+    stroke: #006400; /* Darker green stroke for the stem */
+    stroke-width: 5; /* Width of the stem stroke */
+}
+
+.leaf {
+    fill: #4CAF50; /* Leaf color */
+    stroke: #2E7D32; /* Darker green stroke for the leaves */
+    stroke-width: 2; /* Width of the leaf stroke */
+}
